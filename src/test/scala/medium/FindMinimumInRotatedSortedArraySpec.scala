@@ -36,4 +36,12 @@ class FindMinimumInRotatedSortedArraySpec extends Specification {
     findMin(rotateList(List.range(10, 100))) === 10
   }
 
+  "findMin in the list which only contains 1 number" in {
+    findMin(List(1)) === 1
+  }
+
+  "findMin in non-rotated list" in {
+    findMin(List.range(10, 20)) === 10
+  }
+
 }
