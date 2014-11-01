@@ -36,8 +36,17 @@ import NQueens._
   **********************************************************************************/
 
 class NQueensSpec extends Specification {
+  def show(queens: List[Int]) = {
+    val lines = for {
+      col <- queens
+    } yield Vector.fill(queens.length)(". ").updated(col, "Q ").mkString
+    "\n" + (lines mkString "\n")
+  }
+
   "queens on 4x4 chessboard" in {
     val result = queens(4)
+    println((result map show) mkString "\n\n")
+
     result.size === 2
     result.contains(List(1, 3, 0, 2))
     result.contains(List(2, 0, 3, 1))
