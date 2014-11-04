@@ -9,3 +9,4 @@ LeetCode Scala Solutions
 |[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [Scala](./src/main/scala/medium/ReverseWordsInAString.scala)|Medium|
 |[Find Minimum in Rotated Sorted Array](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [Scala](./src/main/scala/medium/FindMinimumInRotatedSortedArray.scala)|Medium|
 |[N-Queens](https://oj.leetcode.com/problems/n-queens/)| [Scala](./src/main/scala/hard/NQueens.scala)|Hard|
+|[Candy](https://oj.leetcode.com/problems/candy/)| [Scala](./src/main/scala/hard/Candy.scala)|Hard|
